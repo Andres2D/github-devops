@@ -1,0 +1,24 @@
+{
+  "name": "github-devops",
+  "version": "1.0.0",
+  "description": "This is a project to practice the configuration for github actions, CI and CD process.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "babel src -d build",
+    "build:ts": "tsc -p tsconfig.json",
+    "start": "watch 'node src/index.ts'",
+    "test": "jest",
+    "dev": "watch 'npm run build:ts' src",
+    "test:watch": "npm test -- --watch"
+  },
+  "keywords": [
+    "github",
+    "devops",
+    "cicd"
+  ],
+  "author": "Andres2D",
+  "license": "ISC",
+  "devDependencies": {
+    "watch": "^1.0.2"
+  }
+}
