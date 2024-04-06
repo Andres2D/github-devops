@@ -11,7 +11,8 @@
     "dev": "watch 'npm run build:ts' src",
     "test:watch": "npm test -- --watch",
     "lint": "eslint . --ext .ts",
-    "pre-commit": "pre-commit run --all-files"
+    "pre-commit": "pre-commit run --all-files",
+    "prepare": "husky"
   },
   "keywords": [
     "github",
@@ -21,10 +22,13 @@
   "author": "Andres2D",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "@typescript-eslint/parser": "^7.5.0",
     "eslint": "^8.57.0",
+    "husky": "^9.0.11",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.2",
     "watch": "^1.0.2"
