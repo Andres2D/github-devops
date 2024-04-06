@@ -4,7 +4,6 @@
   "description": "This is a project to practice the configuration for github actions, CI and CD process.",
   "main": "index.ts",
   "scripts": {
-    "build": "babel src -d build",
     "build:ts": "tsc -p tsconfig.json",
     "start": "watch 'node src/index.ts'",
     "test": "jest",
