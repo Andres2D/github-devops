@@ -10,7 +10,8 @@
     "test": "jest",
     "dev": "watch 'npm run build:ts' src",
     "test:watch": "npm test -- --watch",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "pre-commit": "pre-commit run --all-files"
   },
   "keywords": [
     "github",
