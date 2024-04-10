@@ -5,5 +5,5 @@ test('Should concat two strings', () => {
 });
 
 test('Should concat two strings with separator', () => {
-  expect(concatStrings('Test', 'Two', '-')).toBe('🔥 Test-Two');
+  expect(concatStrings('Test', 'Two', '-')).toBe('🔥? Test-Two');
 });
